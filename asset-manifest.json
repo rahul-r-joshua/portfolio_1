@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/rahul-r-joshua/portfolio_1/static/css/main.c4852db7.css",
+    "main.js": "/rahul-r-joshua/portfolio_1/static/js/main.ec3223fe.js",
+    "static/js/453.ff9e131f.chunk.js": "/rahul-r-joshua/portfolio_1/static/js/453.ff9e131f.chunk.js",
+    "static/media/Algo.png": "/rahul-r-joshua/portfolio_1/static/media/Algo.6223f1bad241bb62745b.png",
+    "static/media/things.png": "/rahul-r-joshua/portfolio_1/static/media/things.9e31fcd104e044a5c894.png",
+    "static/media/rover.jpg": "/rahul-r-joshua/portfolio_1/static/media/rover.5814a8128a20dbf4ed14.jpg",
+    "static/media/bg-light.png": "/rahul-r-joshua/portfolio_1/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/rahul-r-joshua/portfolio_1/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/entry.png": "/rahul-r-joshua/portfolio_1/static/media/entry.36556a935b1b7c4193a1.png",
+    "static/media/pa.png": "/rahul-r-joshua/portfolio_1/static/media/pa.160e82ccda38447c037c.png",
+    "static/media/ros.png": "/rahul-r-joshua/portfolio_1/static/media/ros.4c462faa6b9e18bfabb4.png",
+    "static/media/bot.png": "/rahul-r-joshua/portfolio_1/static/media/bot.60c0926ade811373f419.png",
+    "static/media/drone.jpg": "/rahul-r-joshua/portfolio_1/static/media/drone.bbf964d27bf545e84207.jpg",
+    "static/media/traffic.png": "/rahul-r-joshua/portfolio_1/static/media/traffic.19b87b2e4fc005e8dcbd.png",
+    "static/media/SHA04400.jpg": "/rahul-r-joshua/portfolio_1/static/media/SHA04400.c0b8265a9e01998bb37a.jpg",
+    "static/media/check.png": "/rahul-r-joshua/portfolio_1/static/media/check.9a7c88a41d17530404f5.png",
+    "static/media/arm.png": "/rahul-r-joshua/portfolio_1/static/media/arm.f058c2ddd354af3ea53b.png",
+    "static/media/mir.jpg": "/rahul-r-joshua/portfolio_1/static/media/mir.50327d297476df8f6b6a.jpg",
+    "index.html": "/rahul-r-joshua/portfolio_1/index.html",
+    "main.c4852db7.css.map": "/rahul-r-joshua/portfolio_1/static/css/main.c4852db7.css.map",
+    "main.ec3223fe.js.map": "/rahul-r-joshua/portfolio_1/static/js/main.ec3223fe.js.map",
+    "453.ff9e131f.chunk.js.map": "/rahul-r-joshua/portfolio_1/static/js/453.ff9e131f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4852db7.css",
+    "static/js/main.ec3223fe.js"
+  ]
+}
