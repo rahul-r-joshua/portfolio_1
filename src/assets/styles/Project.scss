@@ -1,0 +1,69 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  text-align: left;
+}
+
+.projects-container .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projects-container .projects-grid .project {
+  text-align: left;
+}
+
+// Fix PA Robot to always be half width
+.project.pa-robot {
+  grid-column: span 1 !important;
+
+  @media (max-width: 768px) {
+    grid-column: span 1 !important; // Remains half width
+  }
+}
+
+// Let Bionic be responsive
+.project.bionic {
+  @media (max-width: 768px) {
+    grid-column: span 2; // Full width on small screens
+  }
+}
+
+.project h2:hover {
+  text-decoration: underline;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.zoom {
+  border-radius: 5px;
+  transition: transform 0.2s;
+  margin: 0 auto;
+  display: block;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+// Mobile fallback
+@media (max-width: 700px) {
+  .projects-container {
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .projects-container .projects-grid {
+    display: block;
+  }
+
+  .projects-container .projects-grid .project {
+    padding-bottom: 5%;
+  }
+}

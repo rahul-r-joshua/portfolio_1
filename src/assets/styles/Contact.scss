@@ -1,0 +1,85 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  fieldset {
+    background-color: white;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+  color: #050f0b;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+
+/* Important: Override default MUI input styles to fix text visibility */
+.MuiInputBase-input {
+  color: black !important;
+  background-color: white !important;
+}
+
+.MuiOutlinedInput-root {
+  background-color: white !important;
+}
+
+/* Force input text visible and white background */
+.contact-form .MuiOutlinedInput-root {
+  background-color: white !important;
+}
+
+.contact-form .MuiOutlinedInput-input {
+  color: black !important;
+  background-color: white !important;
+}
+
+/* Also fix label color */
+.contact-form .MuiInputLabel-root {
+  color: #050f0b !important;
+}
+
+/* Fix error helper text color */
+.contact-form .MuiFormHelperText-root {
+  color: red !important;
+}
